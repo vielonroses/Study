@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var UserChoose string
-	fmt.Println("Wanna know time rn? ")
+	fmt.Print("Wanna know time rn? ")
 	fmt.Scanln(&UserChoose)
 	if UserChoose == "yes" {
 		Oclock()
