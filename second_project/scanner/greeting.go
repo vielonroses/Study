@@ -14,5 +14,7 @@ func Greeting() {
 
 	if input != "" {
 		fmt.Printf("Yooo %s, how are u?\n", input)
+	} else {
+		fmt.Println("Error")
 	}
 }

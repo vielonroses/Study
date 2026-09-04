@@ -33,7 +33,7 @@ func main() {
 			var x float64
 			fmt.Print("Enter ur number: ")
 			fmt.Scanln(&x)
-			fmt.Printf("Square root: %g", math.Sqrt(x))
+			fmt.Printf("Square root: %g", Sqrt(x))
 
 		default:
 			if cmd != "" {
@@ -41,4 +41,9 @@ func main() {
 			}
 		}
 	}
+}
+
+func Sqrt(x float64) float64 {
+	return math.Sqrt(x)
+
 }
